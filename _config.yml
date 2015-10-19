@@ -1,6 +1,6 @@
-name: Nick Balestra
-description: Try. Fail. Learn. Repeat
-meta_description: "Nick Balestra's blog"
+name: Axel Segebrecht
+description: adventures in digital advancement
+meta_description: "Axel Segebrecht's blog"
 
 
 markdown: redcarpet
@@ -8,13 +8,13 @@ highlighter: pygments
 
 paginate: 50
 baseurl: /
-domain_name: 'http://nick.balestra.ch'
-google_analytics: 'UA-62842593-1'
-disqus_shortname: 'nickbalestra'
+domain_name: 'https://axelsegebrecht.com'
+google_analytics: ''
+disqus_shortname: 'axelsegebrecht'
 
 # Details for the RSS feed generator
-url:            'http://nick.balestra.ch'
-author:         'Nick Balestra'
+url:            'https://axelsegebrecht.com'
+author:         'Axel Segebrecht'
 
 permalink:       /:year/:title/
 
