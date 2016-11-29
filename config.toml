@@ -1,0 +1,107 @@
+baseurl = "https://axelsegebrecht.github.io/"
+languageCode = "en-gb"
+title = "Axel Segebrecht"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Axel Segebrecht"
+	description = "Operations, process and technology"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Hugo Creative Theme"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Axel Segebrecht"
+		subtitle   = "I bridge the gap between the business and technology, to help you leverage the benefits of the latest in Digital."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Hire a Marketing Operations, System Architecture and Project Management Consultant"
+		description = "Understand and interpret business needs, then communicate and match them with technology and their suppliers."
+		buttonText  = "Get in touch"
+
+
+	# Service section
+	[params.services]
+		headline = "Find out how to shape your business processes to..."
+
+        [[params.services.list]]
+            icon = "fa-shopping-bag"
+            title = "Get more value"
+            description = "Deliver more value through using the latest technologies"
+
+        [[params.services.list]]
+			icon = "fa-rocket"
+			title = "Become more efficient"
+			description = "Increase efficiencies in cost, time and resource."
+
+		[[params.services.list]]
+            icon = "fa-star"
+            title = "Enhance experience"
+            description = "Create an improved experience for your users."
+
+        [[params.services.list]]
+            icon = "fa-hourglass-2"
+            title = "Get more responsive"
+            description = "Act based on evidence to shape journeys and lifecycles quicker."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Use Twitter to have a quick chat, easily."
+
+		[params.aside.button]
+			text = "Send a message"
+			link = "//twitter.com/messages/compose?recipient_id=778658234118930437"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Give me a call, text, Telegram, Signal message or just say 'hello' and find out how I can add value to your business."
+		phone = "United Kingdom +44 (0)7794 132 161, Germany +49 (0)1579 232 0328"
+		email = "hello@axelsegebrecht.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
